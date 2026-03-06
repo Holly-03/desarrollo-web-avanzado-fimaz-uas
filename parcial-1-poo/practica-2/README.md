@@ -24,6 +24,8 @@ Admin:
 
 Al ejecutar el archivo `index.php`, se muestran los siguientes datos:
 
-Nombre: Ricardo 
+Nombre: Ricardo
+
 Correo: Ricardo@email.com  
+
 Rol: Administrador
