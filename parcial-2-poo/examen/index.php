@@ -93,13 +93,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     </div>
                     
                     <div class="col-md-3 mb-3">
-                        <label class="form-label">Descripcion</label>
+                        <label class="form-label">descripcion</label>
                         <input type="text" name="Descripcion" class="form-control"
                             value="<?php echo $productoEditar['descripcion'] ?? ''; ?>" required>
                     </div>
 
                     <div class="col-md-2 mb-3">
-                        <label class="form-label">Existencia</label>
+                        <label class="form-label">existencia</label>
                         <input type="number" name="Existencia" class="form-control"
                             value="<?php echo $productoEditar['existencia'] ?? ''; ?>" required>
                     </div>
